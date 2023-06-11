@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Astra Learner</string>
+    <!--    Template dictionary-->
+    <string name="template_dictionary.name">Template dictionary name</string>
+    <string name="template_dictionary.word">Elephant</string>
+    <string name="template_dictionary.transcription">[ˈeləfənt]</string>
+    <string name="template_dictionary.translation">Слон</string>
+    <string name="template_dictionary.tags.first">Animals</string>
+    <string name="template_dictionary.tags.second">Africa</string>
+    <string name="template_dictionary.tags.third">Random_Tag_with_underscore</string>
+    <!--    Onboarding-->
+    <string name="onboarding.button">Explore</string>
+    <string name="onboarding.title.first">Welcome to AstraLearner</string>
+    <string name="onboarding.title.second">Learn!</string>
+    <string name="onboarding.title.third">Interact</string>
+    <string name="onboarding.description.first">Application helps you memorize words or their meanings effectively and easily </string>
+    <string name="onboarding.description.second">Cool modes for learning, custom dictionaries, intuitive interface, flexible settings</string>
+    <string name="onboarding.description.third">Like and dislike dictionaries, favorite them, post your own </string>
+    <string name="onboarding.ls.unknown_language">Let\'s select unknown language</string>
+    <string name="onboarding.ls.known_language">Let\'s select your native language</string>
+    <string name="onboarding.ls.your_language">Your language</string>
+    <!--    Create dictionary-->
+    <string name="dictionary.create.name">Create name for your dictionary</string>
+    <string name="dictionary.create.example">Example: Japanese</string>
+    <string name="dictionary.create.action">Create</string>
+    <string name="dictionary.labels.created">Dictionary created</string>
+    <string name="dictionary.labels.error">Dictionary has not been created: %s</string>
+    <!--    Edit word-->
+    <string name="word.edit.toolbar">Edit</string>
+    <string name="word.edit.action.delete_word">Delete word</string>
+    <string name="word.edit.delete_word.confirm.title">Delete word?</string>
+    <string name="word.edit.delete_word.confirm.desc">Are you sure you want to delete this word?</string>
+    <string name="word.edit.delete_tag.confirm.title">Delete tag?</string>
+    <string name="word.edit.delete_tag.confirm.desc">The tag will be deleted from all words! It can\'t be restored!</string>
+    <string name="word.edit.state.dict.title">Dictionary not found</string>
+    <string name="word.edit.state.dict.desc">Before adding a word into a dictionary - you need to create it</string>
+    <string name="word.edit.state.word.title">Word not found</string>
+    <string name="word.edit.state.word.desc"></string>
+    <string name="word.edit.tag.select">Select a tag</string>
+    <string name="word.edit.tag.create">Create tag</string>
+    <string name="word.edit.tag.add">Create tag</string>
+    <string name="word.edit.tag.input.hint">Create tag</string>
+    <string name="word.edit.tags">Tags</string>
+    <string name="word.edit.tags.empty">No tags available</string>
+    <string name="word.edit.dictionary">%s</string>
+    <string name="word.edit.title">Edit word</string>
+    <string name="word.edit.input.hint.word">Input word</string>
+    <string name="word.edit.input.hint.translation">Input translation</string>
+    <string name="word.edit.input.hint.transcription">Input transcription</string>
+    <string name="word.edit.add_word">Add word</string>
+    <!--    Find translation lesson-->
+    <string name="ftl.button.remember">Remember</string>
+    <string name="ftl.button.not_remember">Not remember</string>
+    <string name="ftl.lesson.ended">No more words!</string>
+    <string name="ftl.lesson.restart">Restart</string>
+    <string name="ftl.lesson.not_enough_words">Not enough words</string>
+    <!--    Pager-->
+    <string name="pager.faq">F.A.Q</string>
+    <string name="pager.list">List</string>
+    <string name="pager.settings">Settings</string>
+    <!--    Select dictionary-->
+    <string name="sd.your_dicts">Your dictionaries</string>
+    <string name="sd.empty">No dictionaries available</string>
+    <string name="sd.selected">Selected dictionary</string>
+    <string name="sd.delete_dictionary.title">Delete dictionary: %s</string>
+    <string name="sd.delete_dictionary.description">After dictionary deleted all related tags will be gone\nAre you sure you want to do this?</string>
+    <!--    Dialog-->
+    <string name="dialog.confirm">Confirm</string>
+    <string name="dialog.cancel">Cancel</string>
+    <string name="dialog.close">Close</string>
+    <!--    Language-->
+    <string name="language.not_selected">Not selected</string>
+    <!--    Settings-->
+    <string name="settings.toolbar">Settings</string>
+    <string name="settings.section.dictionary.title">Dictionary</string>
+    <string name="settings.section.dictionary.chosen">Dictionary</string>
+    <string name="settings.section.dictionary.not_selected">Not selected</string>
+    <string name="settings.section.dictionary.create">Create dictionary</string>
+    <string name="settings.section.dictionary.dark_theme">Dark theme</string>
+    <string name="settings.section.dictionary.transcription">Show transcription</string>
+    <string name="settings.section.dictionary.translation">Show translation</string>
+    <string name="settings.section.dictionary.tags">Show tags</string>
+    <string name="settings.section.data.title">Data</string>
+    <string name="settings.section.data.import">Import dictionary</string>
+    <string name="settings.section.data.export">Export dictionary</string>
+    <string name="settings.section.data.template">Create template dictionary</string>
+    <string name="settings.section.help.title">Help</string>
+    <string name="settings.section.help.how_load">How to load dictionary</string>
+    <string name="settings.section.help.version">Version</string>
+    <string name="settings.section.help.watch_ads">Watch ads</string>
+    <string name="settings.dialog.howload.1">How to load a dictionary?</string>
+    <string name="settings.dialog.howload.2">To load a dictionary into the app - create a template .xlsx document in the settings screen</string>
+    <string name="settings.dialog.howload.3">The next step is to populate this dictionary with your words</string>
+    <string name="settings.dialog.howload.4">After that, click "Load Dictionary" and select the file you saved</string>
+    <string name="settings.dialog.howload.5">Each tag must only apply to one language!</string>
+    <string name="settings.dialog.howload.6">The application only reads files that match the pattern!</string>
+    <string name="settings.dialog.howload.7">Can\'t change the language of an existing word!</string>
+    <string name="settings.labels.error_dict_load">Could not load dictionary: %s</string>
+    <string name="settings.labels.success_dict_load">Dictionary file imported!</string>
+    <string name="settings.labels.empty_dict_load">Dictionary file is empty or broken!</string>
+    <string name="settings.labels.dict_saved">Dictionary saved!</string>
+    <!--    Lesson configuration-->
+    <string name="lc.toolbar">Configuration</string>
+    <string name="lc.tag.choose">Choose tag</string>
+    <string name="lc.state.error.title">Dictionary not found</string>
+    <string name="lc.state.error.desc">Before lesson setup you need to create or select a dictionary</string>
+    <string name="lc.settings.infinite_repeat">Infinite repeat</string>
+    <string name="lc.settings.answer_from_all_dict">Answers from all dict</string>
+    <string name="lc.settings.show_transcription">Show transcription</string>
+    <string name="lc.settings.selected_tags">Selected tags</string>
+    <string name="lc.settings.no_tags">No tags available</string>
+    <string name="lc.items.find_translation">Find translation</string>
+    <string name="lc.items.find_word">Find word</string>
+    <string name="lc.items.fast_word_repeat">Fast word repeat</string>
+    <string name="lc.items.fast_translation_repeat">Fast translation repeat</string>
+    <!--    User dictionaries list-->
+    <string name="udl.filter.title">Filter</string>
+    <string name="udl.filter.favorite">Favorite</string>
+    <string name="udl.filter.own">Own dictionaries</string>
+    <string name="udl.filter.unknown_language">Unknown language</string>
+    <string name="udl.filter.known_language">Known language</string>
+    <string name="udl.filter.rating_sort">Rating sort</string>
+    <string name="udl.card.dict.rating">Rating</string>
+    <string name="udl.card.dict.known_language">Known language</string>
+    <string name="udl.card.dict.unknown_language">Unknown language</string>
+    <string name="udl.card.dict.words_amount">Words amount</string>
+    <string name="udl.card.dict.tags_amount">Tags amount</string>
+    <!--    User dictionary detail-->
+    <string name="udd.error.title">Dictionary not found</string>
+    <string name="udd.error.desc">Mayer there\'s network error</string>
+    <string name="udd.toolbar.actions.remove_selection">Remove selection</string>
+    <string name="udd.toolbar.actions.select_all">Select all</string>
+    <string name="udd.toolbar.actions.load_selected">Load selected</string>
+    <string name="udd.toolbar.actions.load_all">Load all</string>
+    <string name="udd.toolbar.actions.dictionary_delete">Delete dictionary</string>
+    <string name="udd.dialog.delete_dict.title">Are you sure you want to delete dictionary?</string>
+    <string name="udd.dialog.delete_dict.desc">You can make it private and no one will see it!\nIt will not be possible to restore it!\nDelete dictionary?</string>
+    <string name="udd.card.edit.title">Edit dictionary</string>
+    <string name="udd.card.hint.public">Your dictionary is public. This means that any other user can rate it, add it to their favorites, or download it for themselves</string>
+    <string name="udd.card.hint.non_public">Your dictionary might be useful to someone! If you make it private, only you will have access to it</string>
+    <string name="udd.card.edit.public">Public</string>
+    <string name="udd.card.edit.unknown_language">Unknown language</string>
+    <string name="udd.card.edit.known_language">Known language</string>
+    <string name="udd.card.edit.name">Dictionary title</string>
+    <string name="udd.card.edit.save">Save</string>
+    <string name="udd.labels.words_loaded">Words loaded</string>
+    <string name="udd.labels.error_import">Network error occurred</string>
+    <!--    Word list-->
+    <string name="words.labels.unknown_error">Unknown error</string>
+    <string name="words.state.no_dictionary_selected">Choose dictionary</string>
+    <string name="words.dialog.delete_dict.title">Удалить слова?</string>
+    <string name="words.dialog.delete_dict.desc">Вы уверены что хотите удалить все выбраныне слова? Это действие необратимо</string>
+    <string name="words.toolbar.actions.remove_selection">Remove selection</string>
+    <string name="words.toolbar.actions.select_all">Select all</string>
+    <string name="words.toolbar.actions.delete_selected_words">Delete selected words</string>
+    <string name="words.dialog.how_upload.title">How do I load a dictionary on the server?</string>
+    <string name="words.dialog.how_upload.1">To load a dictionary - open the word list screen</string>
+    <string name="words.dialog.how_upload.2">Next, long press one of the words</string>
+    <string name="words.dialog.how_upload.3">After that, you can select the rest of the words individually or all at once through the menu at the top right</string>
+    <string name="words.dialog.how_upload.4">When you have finished choosing words - click on the menu that opens at the very beginning of the list - then everything will become clear to you</string>
+    <string name="words.dialog.how_upload.5">To load words - you need to log in!</string>
+    <string name="words.dialog.how_upload.6">It is possible to load words when there are more than 10 words!</string>
+    <string name="words.dialog.how_upload.7">Load words must not exceed 200!</string>
+    <string name="words.card.upload.title">Upload words</string>
+    <string name="words.card.upload.action">Upload</string>
+    <string name="words.card.user_dictionaries">Remote user dictionaries</string>
+    <string name="words.card.watch">See dictionaries</string>
+    <string name="words.card.how_load">How upload on server</string>
+    <string name="words.element.word">Word</string>
+    <string name="words.element.transcription">Transcription</string>
+    <string name="words.element.translation">Translation</string>
+    <string name="words.element.tags">Tags</string>
+    <!--    XLSX-->
+    <string name="xlsx_percent">Percent %</string>
+    <string name="xlsx_word">Word</string>
+    <string name="xlsx_translation">Translation</string>
+    <string name="xlsx_transcription">Transcription</string>
+    <string name="xlsx_tags">Tags</string>
+    <!--    Paging-->
+    <string name="paging.last_page">Last page reached! No more found!</string>
+    <string name="paging.no_pages">Nothing was found!</string>
+    <string name="paging.network_error">Nothing was found! Check your internet connection!</string>
+    <!--    Search app bar-->
+    <string name="appbar.search.input_hint">Input something...</string>
+    <!--    OAuth-->
+    <string name="oauth.error.unknown">Unknown error</string>
+    <string name="oauth.error.auth">Authorization error</string>
+    <string name="oauth.complete">Authorization completed</string>
+    <string name="oauth.logout">Log out</string>
+    <string name="oauth.auth">Log in</string>
+    <string name="oauth.wait">Please wait</string>
+    <!--    Remote dictionary edit-->
+    <string name="rde.label.updated">Dictionary updated</string>
+    <string name="rde.label.error">Could not update dictionary</string>
+    <!--    FAQ-->
+    <string name="faq.title">Frequently Asked Questions</string>
+    <!--    FAQ - How Load-->
+    <string name="faq.item.how_load.title">How to load dictionary?</string>
+    <string name="faq.item.how_load_1">You can do it in two ways:</string>
+    <string name="faq.item.how_load_2">1. Go to settings and import it from .xlsx file</string>
+    <string name="faq.item.how_load_3">2. Go "Remote user dictionaries", choose a dictionary you like. In dictionary detail screen on upper right click three dots and choose "Load all"</string>
+    <string name="faq.item.how_load_4">Imported dictionary will be selected. You can change selection in Settings -> Dictionary</string>
+    <string name="faq.item.how_load_5">3. Create your own dictionary in Settings and add words to it by yourself in Word List screen</string>
+    <!--    FAQ - How Upload-->
+    <string name="faq.item.how_upload.title">How to upload dictionary?</string>
+    <string name="faq.item.how_upload_1">1. Authorize via google in Setting screen</string>
+    <string name="faq.item.how_upload_2">2. Long press on word in Word List - upload words card will be shown</string>
+    <string name="faq.item.how_upload_3">3. Select all words you would like to upload</string>
+    <string name="faq.item.how_upload_4">4. Configure dictionary name, and other configuration such as language</string>
+    <string name="faq.item.how_upload_5">5. Press upload button - after that, you\'ll be moved to remote dictionary screen</string>
+    <!--    FAQ - Why Auth-->
+    <string name="faq.item.why_auth.title">Why Google Auth?</string>
+    <string name="faq.item.why_auth_1">Authorization is needed to allow you upload dictionaries on server</string>
+    <string name="faq.item.why_auth_2">You are able to use application without authorization</string>
+    <string name="faq.item.why_auth_3">Of course, without auth - you will not be able to upload your own dictionaries on server</string>
+    <!--    FAQ - Start lesson-->
+    <string name="faq.item.start_lesson.title">How to start lesson?</string>
+    <string name="faq.item.start_lesson_1">1. Make sure dictionary is selected and Word List screen is not empty </string>
+    <string name="faq.item.start_lesson_2">2. Make sure you have at least 4 words in your current dictionary</string>
+    <string name="faq.item.start_lesson_3">3. Make sure you have at least 1 word tag, which contains 4 words</string>
+    <string name="faq.item.start_lesson_4">4. Open Word List screen and press double arrow button on top right</string>
+    <string name="faq.item.start_lesson_5">5. Press settings button on upper right and select tags</string>
+    <string name="faq.item.start_lesson_6">6. Choose lesson you like</string>
+    <!--    FAQ - Create on PC-->
+    <string name="faq.item.create_pc.title">Create dictionary on PC</string>
+    <string name="faq.item.create_pc_1">1. Go to settings and press "Create template dictionary"</string>
+    <string name="faq.item.create_pc_2">2. Choose a folder where to save template dictionary</string>
+    <string name="faq.item.create_pc_3">3. After it\'s created - you can move .xlsx file into your PC and fill it with words</string>
+    <string name="faq.item.create_pc_4">4. After you filled .xlsx file - save it on your phone, press Import dictionary in settings screen and choose your .xlsx file</string>
+    <string name="faq.item.create_pc_5">After that - dictionaries will be imported and available in Settings->Dictionary</string>
+</resources>
